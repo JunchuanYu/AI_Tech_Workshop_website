@@ -13,7 +13,7 @@ about:
       # href: ‘缺pdf’
     - icon: github
       text: GitHub
-      href: https://github.com/JunchuanYu/AGRS-AI-Tech-Workgroup
+      href: https://github.com/JunchuanYu/AGRS_AI_Tech_Workshop
     # - icon: book
     #   text: Zhihu
     #   href: https://www.zhihu.com/people/yu-jun-chuan-84

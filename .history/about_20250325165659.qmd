@@ -13,7 +13,7 @@ about:
       # href: ‘缺pdf’
     - icon: github
       text: GitHub
-      href: https://github.com/JunchuanYu/AGRS-AI-Tech-Workgroup
+      href: https://github.com/JunchuanYu/AGRS_AI_Tech_Workshop
     # - icon: book
     #   text: Zhihu
     #   href: https://www.zhihu.com/people/yu-jun-chuan-84
@@ -29,7 +29,6 @@ about:
 
 AGRS AI Tech Workshop是由中国自然资源航空物探遥感中心周坚鑫教授组织的前沿人工智能技术交流平台。我们致力于推动AI技术在遥感、地学及相关领域的创新应用与发展。
 
-<br/>
 
 ### 我们的使命
 
