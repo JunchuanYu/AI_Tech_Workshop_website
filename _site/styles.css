@@ -156,3 +156,44 @@ div.quarto-about-trestles .about-entity .about-link:hover {
   font-size: 1.1rem !important;
   margin-top: -9px;
 }
+
+.content-block {
+    max-width: 1200px !important;  /* 调整这个值来改变内容宽度 */
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.quarto-about-solana {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1000px) auto;
+    gap: 2rem;
+}
+
+.quarto-about-solana .about-image {
+    grid-column: 1;
+    width: 200px;
+}
+
+.quarto-about-solana .about-contents {
+    grid-column: 2;
+    width: 100%;
+    max-width: 1500;
+}
+
+.quarto-about-solana .about-links {
+    grid-column: 1;
+    margin-top: 1rem;
+}
+
+.navbar-brand img {
+    max-height: 45px;  # 调整这个值来改变 logo 大小
+}
+
+.full-width-content {
+    width: 100vw;
+    position: relative;
+    left: 40%;
+    right: 40%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}

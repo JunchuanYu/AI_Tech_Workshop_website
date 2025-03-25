@@ -1,35 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://junchuanyu.netlify.app/about.html</loc>
-    <lastmod>2025-03-25T09:53:22.528Z</lastmod>
+    <loc>https://agrsai.netlify.app/about.html</loc>
+    <lastmod>2025-03-25T19:07:39.521Z</lastmod>
   </url>
   <url>
-    <loc>https://junchuanyu.netlify.app/index.html</loc>
-    <lastmod>2025-03-25T09:53:23.393Z</lastmod>
+    <loc>https://agrsai.netlify.app/index.html</loc>
+    <lastmod>2025-03-25T19:07:40.744Z</lastmod>
   </url>
   <url>
-    <loc>https://junchuanyu.netlify.app/News/2024-11-11gradio_p4/index.html</loc>
-    <lastmod>2025-03-25T09:53:24.303Z</lastmod>
+    <loc>https://agrsai.netlify.app/News/AGRS_AI_001/index.html</loc>
+    <lastmod>2025-03-25T19:07:41.550Z</lastmod>
   </url>
   <url>
-    <loc>https://junchuanyu.netlify.app/News/index.html</loc>
-    <lastmod>2025-03-25T09:53:25.076Z</lastmod>
+    <loc>https://agrsai.netlify.app/News/AGRS_AI_002/index.html</loc>
+    <lastmod>2025-03-25T19:07:42.312Z</lastmod>
   </url>
   <url>
-    <loc>https://junchuanyu.netlify.app/Reports/2024-7-21 NLIBTALKS/main.html</loc>
-    <lastmod>2025-03-25T09:53:25.782Z</lastmod>
+    <loc>https://agrsai.netlify.app/News/index.html</loc>
+    <lastmod>2025-03-25T19:07:43.054Z</lastmod>
   </url>
   <url>
-    <loc>https://junchuanyu.netlify.app/Reports/index.html</loc>
-    <lastmod>2025-03-25T09:53:26.538Z</lastmod>
+    <loc>https://agrsai.netlify.app/Reports/aireport001/main.html</loc>
+    <lastmod>2025-03-25T19:07:43.783Z</lastmod>
   </url>
   <url>
-    <loc>https://junchuanyu.netlify.app/Tutorials/Adobe_Illustrator_for_Scientific_Graphic_Design/index.html</loc>
-    <lastmod>2025-03-25T09:53:27.326Z</lastmod>
+    <loc>https://agrsai.netlify.app/Reports/aireport002/main.html</loc>
+    <lastmod>2025-03-25T19:07:44.488Z</lastmod>
   </url>
   <url>
-    <loc>https://junchuanyu.netlify.app/Tutorials/index.html</loc>
-    <lastmod>2025-03-25T09:53:28.118Z</lastmod>
+    <loc>https://agrsai.netlify.app/Reports/index.html</loc>
+    <lastmod>2025-03-25T19:07:45.313Z</lastmod>
+  </url>
+  <url>
+    <loc>https://agrsai.netlify.app/Reports/slide-20230901.html</loc>
+    <lastmod>2025-03-25T19:07:46.269Z</lastmod>
+  </url>
+  <url>
+    <loc>https://agrsai.netlify.app/Tutorials/Adobe_Illustrator_for_Scientific_Graphic_Design/index.html</loc>
+    <lastmod>2025-03-25T19:07:47.043Z</lastmod>
+  </url>
+  <url>
+    <loc>https://agrsai.netlify.app/Tutorials/index.html</loc>
+    <lastmod>2025-03-25T19:07:47.880Z</lastmod>
   </url>
 </urlset>

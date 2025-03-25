@@ -1,0 +1,21 @@
+.content-block {
+    max-width: 80% !important;  /* 设置内容区域为80%宽度 */
+    margin: 0 auto;
+}
+
+.quarto-title-block {
+    max-width: 80% !important;
+    margin: 0 auto;
+}
+
+.page-columns {
+    display: grid;
+    grid-template-columns: 1fr !important;  /* 强制使用单列布局 */
+    max-width: 80% !important;
+    margin: 0 auto;
+}
+
+main {
+    max-width: 80% !important;
+    margin: 0 auto;
+}

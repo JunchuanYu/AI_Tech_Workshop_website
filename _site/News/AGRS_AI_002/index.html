@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.1.189">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="于峻川">
+<meta name="dcterms.date" content="2024-03-24">
+<meta name="description" content="AI Tech Workshop系列讲座（二）">
+
+<title>从DeepSeek到Agent——大语言模型驱动的科研范式革新</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../favicon.ico" rel="icon">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-2J79YYG9CZ"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-2J79YYG9CZ', { 'anonymize_ip': true});
+</script>
+<style>html{ scroll-behavior: smooth; }</style>
+<!-- Primary Meta Tags -->
+<title>AGRS AI Tech Workshop</title>
+<meta name="title" content="AGRS AI Tech Workshop">
+<meta name="description" content="Welcome!">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="">
+<meta property="og:title" content="从DeepSeek到Agent——大语言模型驱动的科研范式革新">
+<meta property="og:description" content="AI Tech Workshop系列讲座（二）">
+<meta property="og:image" content="">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="">
+<meta property="twitter:title" content="AGRS AI Tech Workshop">
+<meta property="twitter:description" content="Welcome!">
+<meta property="twitter:image" content="">
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../aitech-04.png" alt="" class="navbar-logo">
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html">About</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../News/index.html">News</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../Reports/index.html">Reports</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../Tutorials/index.html">Tutorials</a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/JunchuanYu/AGRS-AI-Tech-Workshop"><i class="bi bi-github" role="img">
+</i> 
+ </a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">从DeepSeek到Agent——大语言模型驱动的科研范式革新</h1>
+                  <div>
+        <div class="description">
+          AI Tech Workshop系列讲座（二）
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">讲座</div>
+                <div class="quarto-category">LLM</div>
+                <div class="quarto-category">Agent</div>
+                <div class="quarto-category">理论，AI</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>于峻川 </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">March 24, 2024</p>
+      </div>
+    </div>
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#讲座概要" id="toc-讲座概要" class="nav-link active" data-scroll-target="#讲座概要">讲座概要</a></li>
+  <li><a href="#核心内容" id="toc-核心内容" class="nav-link" data-scroll-target="#核心内容">核心内容</a>
+  <ul class="collapse">
+  <li><a href="#大语言模型发展历程" id="toc-大语言模型发展历程" class="nav-link" data-scroll-target="#大语言模型发展历程">大语言模型发展历程</a></li>
+  <li><a href="#科研范式的革新" id="toc-科研范式的革新" class="nav-link" data-scroll-target="#科研范式的革新">科研范式的革新</a></li>
+  <li><a href="#技术实践与部署方案" id="toc-技术实践与部署方案" class="nav-link" data-scroll-target="#技术实践与部署方案">技术实践与部署方案</a></li>
+  <li><a href="#能力建设与团队发展" id="toc-能力建设与团队发展" class="nav-link" data-scroll-target="#能力建设与团队发展">能力建设与团队发展</a></li>
+  <li><a href="#技术应用挑战与对策" id="toc-技术应用挑战与对策" class="nav-link" data-scroll-target="#技术应用挑战与对策">技术应用挑战与对策</a></li>
+  </ul></li>
+  <li><a href="#总结与展望" id="toc-总结与展望" class="nav-link" data-scroll-target="#总结与展望">总结与展望</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+<section id="讲座概要" class="level2">
+<h2 class="anchored" data-anchor-id="讲座概要">讲座概要</h2>
+<p>2024年3月24日，航遥中心AI兴趣班迎来第二期系列讲座。本次讲座采用线上线下混合模式，由遥感应用技术研究所的于峻川同志主讲，主题为”从DeepSeek到Agent：大语言模型驱动下的科研范式创新”。</p>
+<p><img src="https://dunazo.oss-cn-beijing.aliyuncs.com/blog/4.jpg" class="img-fluid"></p>
+</section>
+<section id="核心内容" class="level2">
+<h2 class="anchored" data-anchor-id="核心内容">核心内容</h2>
+<section id="大语言模型发展历程" class="level3">
+<h3 class="anchored" data-anchor-id="大语言模型发展历程">大语言模型发展历程</h3>
+<p>讲座深入剖析了大语言模型面临的主要困境： - 闭源生态问题 - 资源高消耗问题 - 数据低质化 - 算力政治化</p>
+<p>重点介绍了DeepSeek的技术创新： - 降低模型训练成本的有效方案 - DeepSeek-r1 Zero的历史性突破 - 推动AI技术开源进程的举措</p>
+</section>
+<section id="科研范式的革新" class="level3">
+<h3 class="anchored" data-anchor-id="科研范式的革新">科研范式的革新</h3>
+<p>大语言模型为科研工作带来的变革： - 重塑传统科研范式 - 显著提升科研效率 - 打破思维边界 - 与LLM相结合的优质案例分析</p>
+</section>
+<section id="技术实践与部署方案" class="level3">
+<h3 class="anchored" data-anchor-id="技术实践与部署方案">技术实践与部署方案</h3>
+<p>详细探讨了多个实施层面： - LLM本地化部署解决方案 - 基于RAG的知识库构建方法论 - LLM企业级部署方案 - 智能平台搭建指南</p>
+</section>
+<section id="能力建设与团队发展" class="level3">
+<h3 class="anchored" data-anchor-id="能力建设与团队发展">能力建设与团队发展</h3>
+<section id="个人能力提升" class="level4">
+<h4 class="anchored" data-anchor-id="个人能力提升">个人能力提升</h4>
+<ul>
+<li>AI时代必备的核心技能</li>
+<li>持续学习的方向指引</li>
+</ul>
+</section>
+<section id="团队建设要点" class="level4">
+<h4 class="anchored" data-anchor-id="团队建设要点">团队建设要点</h4>
+<ul>
+<li>技术协同策略</li>
+<li>创新能力培养</li>
+</ul>
+</section>
+</section>
+<section id="技术应用挑战与对策" class="level3">
+<h3 class="anchored" data-anchor-id="技术应用挑战与对策">技术应用挑战与对策</h3>
+<p>现存挑战： - API接口差异问题 - 数据隐私保护需求 - 其他技术落地难点</p>
+<p>应对策略： - 实用性解决方案 - 具体实施建议</p>
+</section>
+</section>
+<section id="总结与展望" class="level2">
+<h2 class="anchored" data-anchor-id="总结与展望">总结与展望</h2>
+<p>此次授课内容充实丰富，为中心技术人员在人工智能领域的学习与工作注入了新的思路，指明了前行方向。通过深入浅出的讲解和实际案例分析，帮助团队更好地理解和把握大语言模型技术的发展趋势与应用潜力，这将有力推动航空物探与遥感领域在AI浪潮中实现创新突破，稳健发展。</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp(/^(?:http:|https:)\/\/www\.junchuanyu\.com\/**/);
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+    var links = window.document.querySelectorAll('a:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+      }
+    }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">Blog made with <a href="https://quarto.org/">Quarto</a>, by Junchuan Yu.</div>   
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="mailto:yujunchuan@mail.cgs.gov.cn">Email</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://github.com/JunchuanYu/AGRS-AI-Tech-Workshop">GitHub</a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

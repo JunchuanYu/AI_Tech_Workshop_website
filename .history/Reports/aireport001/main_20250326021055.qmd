@@ -1,0 +1,31 @@
+---
+title: "人工智能发展的昨天与今天"
+author: "AGRS AI Tech Workshop"
+date: "2024-03-10"
+categories: [讲座, 理论，AI]
+description: "AI Tech Workshop系列讲座（一）"
+image: "https://yujc.quarto.pub/aireport001-b55a/#/section"
+format:
+  html:
+    page-layout: custom
+---
+
+<style>
+.container {
+    width: 95vw;        /* 使用视窗宽度的95% */
+    margin: 0 auto;     /* 居中显示 */
+    padding: 20px;
+}
+</style>
+
+<div class="container">
+    <h2>PPT在线</h2>
+    <p><a href="https://yujc.quarto.pub/aireport001-b55a/#/section">全屏观看链接</a></p>
+    <iframe 
+        src="https://yujc.quarto.pub/aireport001-b55a/#/section" 
+        style="width: 100%; height: 90vh; border: none;">
+    </iframe>
+</div>
+
+
+

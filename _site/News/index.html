@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>AGRS AI Tech Workgrop - Posts</title>
+<title>News</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -64,7 +64,7 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-posts .list');
+    const listingTargetEl = window.document.querySelector('#listing-News .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -77,7 +77,7 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-posts'] = new List('listing-posts', options);
+    window['quarto-listings']['listing-News'] = new List('listing-News', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -108,7 +108,7 @@ gtag('config', 'G-2J79YYG9CZ', { 'anonymize_ip': true});
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">
 <meta property="og:url" content="">
-<meta property="og:title" content="AGRS AI Tech Workgrop - Posts">
+<meta property="og:title" content="News">
 <meta property="og:description" content="Welcome!">
 <meta property="og:image" content="">
 
@@ -131,8 +131,8 @@ gtag('config', 'G-2J79YYG9CZ', { 'anonymize_ip': true});
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="../index.html">
-    <span class="navbar-title">AGRS AI Tech Workgrop</span>
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../aitech-04.png" alt="" class="navbar-logo">
     </a>
   </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
@@ -153,7 +153,7 @@ gtag('config', 'G-2J79YYG9CZ', { 'anonymize_ip': true});
     <a class="nav-link" href="../Tutorials/index.html">Tutorials</a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/JunchuanYu/AGRS-AI-Tech-Workgroup"><i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/JunchuanYu/AGRS-AI-Tech-Workshop"><i class="bi bi-github" role="img">
 </i> 
  </a>
   </li>  
@@ -169,13 +169,13 @@ gtag('config', 'G-2J79YYG9CZ', { 'anonymize_ip': true});
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-cloud"><div class="category" data-category="APP"><span class="quarto-category-count category-cloud-10">APP</span></div><div class="category" data-category="Deep learning"><span class="quarto-category-count category-cloud-10">Deep learning</span></div><div class="category" data-category="Gradio"><span class="quarto-category-count category-cloud-10">Gradio</span></div><div class="category" data-category="Posts"><span class="quarto-category-count category-cloud-10">Posts</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-cloud"><div class="category" data-category="Agent"><span class="quarto-category-count category-cloud-5">Agent</span></div><div class="category" data-category="LLM"><span class="quarto-category-count category-cloud-5">LLM</span></div><div class="category" data-category="理论，AI"><span class="quarto-category-count category-cloud-10">理论，AI</span></div><div class="category" data-category="讲座"><span class="quarto-category-count category-cloud-10">讲座</span></div></div></div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Posts</h1>
+<h1 class="title">News</h1>
 </div>
 
 
@@ -189,11 +189,11 @@ gtag('config', 'G-2J79YYG9CZ', { 'anonymize_ip': true});
 
 </header>
 
-<div id="listing-posts" class="quarto-listing quarto-listing-container-grid">
+<div id="listing-News" class="quarto-listing quarto-listing-container-grid">
 <div class="listing-actions-group">
    <div class="input-group input-group-sm quarto-listing-sort">
      <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-posts-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-posts'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+     <select id="listing-News-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-News'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
        <option value="" disabled="" selected="" hidden="">Order By</option>
        <option value="index" data-direction="asc">Default</option>
          <option value="listing-title" data-direction="asc">
@@ -213,22 +213,38 @@ gtag('config', 'G-2J79YYG9CZ', { 'anonymize_ip': true});
     </div>
 </div>
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="Posts,Gradio,APP,Deep learning" data-listing-date-sort="1731254400000" data-listing-file-modified-sort="1742890211790" data-listing-reading-time-sort="2.99">
-<a href="../News/2024-11-11gradio_p4/index.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="0" data-categories="讲座,LLM,Agent,理论，AI" data-listing-date-sort="1711209600000" data-listing-file-modified-sort="1742927517357" data-listing-reading-time-sort="0.175">
+<a href="../News/AGRS_AI_002/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://dunazo.oss-cn-beijing.aliyuncs.com/blog/Gradio.png" class="thumbnail-image card-img" style="height: 150px;">
+<img src="https://dunazo.oss-cn-beijing.aliyuncs.com/blog/4.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-使用Gradio构建交互式Web应用-P4
+从DeepSeek到Agent——大语言模型驱动的科研范式革新
 </h5>
-<div class="card-subtitle listing-subtitle">
-Gradio与机器学习应用（下）
-</div>
 <div class="card-attribution card-text-small end">
 <div class="listing-date">
-Nov 11, 2024
+Mar 24, 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="讲座,理论，AI" data-listing-date-sort="1710000000000" data-listing-file-modified-sort="1742927677296" data-listing-reading-time-sort="0.15">
+<a href="../News/AGRS_AI_001/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="https://dunazo.oss-cn-beijing.aliyuncs.com/blog/1.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+人工智能发展的昨天与今天
+</h5>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Mar 10, 2024
 </div>
 </div>
 </div>
@@ -367,7 +383,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <a class="nav-link" href="mailto:yujunchuan@mail.cgs.gov.cn">Email</a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="https://github.com/JunchuanYu/AGRS-AI-Tech-Workgroup">GitHub</a>
+    <a class="nav-link" href="https://github.com/JunchuanYu/AGRS-AI-Tech-Workshop">GitHub</a>
   </li>  
 </ul>
     </div>

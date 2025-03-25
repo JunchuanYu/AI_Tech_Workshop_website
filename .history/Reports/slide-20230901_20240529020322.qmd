@@ -1,0 +1,79 @@
+---
+format:
+  revealjs: 
+    theme: default
+---
+
+## 
+
+<center><font size=28 ></font></center>
+
+![](adobeimage/adobepic_01.jpg){fig-align="center" width="100%"}
+
+## 
+
+![](adobeimage/adobepic_02.jpg){fig-align="center" width="100%"}
+
+## 
+
+![](adobeimage/adobepic_03.jpg){fig-align="center" width="100%"}
+
+## 
+
+![](adobeimage/adobepic_04.jpg){fig-align="center" width="100%"}
+
+## 
+
+![](adobeimage/adobepic_05.jpg){fig-align="center" width="100%"}
+
+## 
+
+![](adobeimage/adobepic_06.jpg){fig-align="center" width="100%"}
+
+## 
+
+![](adobeimage/adobepic_07.jpg){fig-align="center" width="100%"}
+
+## 
+
+![](adobeimage/adobepic_08.jpg){fig-align="center" width="100%"}
+
+## 
+
+![](adobeimage/adobepic_09.jpg){fig-align="center" width="100%"}
+
+## 
+
+![](adobeimage/adobepic_10.jpg){fig-align="center" width="100%"}
+
+## 
+
+![](adobeimage/adobepic_11.jpg){fig-align="center" width="100%"}
+
+## 
+
+![](adobeimage/adobepic_12.jpg){fig-align="center" width="100%"}
+
+## 
+
+![](adobeimage/adobepic_13.jpg){fig-align="center" width="100%"}
+
+## 
+
+![](adobeimage/adobepic_14.jpg){fig-align="center" width="100%"}
+
+## 
+
+![](adobeimage/adobepic_15.jpg){fig-align="center" width="100%"}
+
+## 
+
+![](adobeimage/adobepic_16.jpg){fig-align="center" width="100%"}
+
+## 
+
+![](adobeimage/adobepic_17.jpg){fig-align="center" width="100%"}
+
+## 
+
+![](adobeimage/adobepic_18.jpg){fig-align="center" width="100%"}

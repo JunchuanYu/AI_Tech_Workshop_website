@@ -4,56 +4,98 @@
     "href": "about.html",
     "title": "AGRS AI Tech Workgrop",
     "section": "",
-    "text": "我们的使命\n\n搭建AI技术交流与合作的桥梁\n分享前沿技术与行业应用经验\n培养跨学科的AI技术人才\n促进AI技术在地学领域的创新应用\n\n\n\n\n活动内容\n每周我们都会举办丰富多彩的技术交流活动，包括但不限于：\n\n前沿技术分享：深度学习、计算机视觉、自然语言处理等AI最新进展\n基础开发教学：Python编程、机器学习框架、数据处理等实用技能\n行业应用案例：AI在遥感、地质、环境等领域的成功实践\n项目合作交流：促进跨学科、跨机构的合作项目\n\n\n\n\n参与方式\n本研讨会面向所有对AI技术感兴趣的研究人员、工程师和学生开放。您可以通过以下方式参与：\n\n关注我们的GitHub仓库获取最新资料\n参加每周的线下/线上交流活动\n参与我们的开源项目\n\n\n\n\n资源中心\n\n技术文档与教程\n往期活动报道\n往期报告\n\n\n\n\n联系我们\n如有任何问题或合作意向，请通过以下方式联系我们：\n\n邮箱：yujunchuan@mail.cgs.gov.cn\n线下交流：中国自然资源航空物探遥感中心\n\n\n\n加入我们，共同探索AI技术的无限可能！"
+    "text": "我们的使命\n\n搭建AI技术交流与合作的桥梁\n分享前沿技术与行业应用经验\n培养跨学科的AI技术人才\n促进AI技术在地学领域的创新应用\n\n\n\n\n活动内容\n每周我们都会举办丰富多彩的技术交流活动，包括但不限于：\n\n前沿技术分享：深度学习、计算机视觉、自然语言处理等AI最新进展\n基础开发教学：Python编程、机器学习框架、数据处理等实用技能\n行业应用案例：AI在遥感、地质、环境等领域的成功实践\n项目合作交流：促进跨学科、跨机构的合作项目\n\n\n\n\n参与方式\n本研讨会面向所有对AI技术感兴趣的研究人员、工程师和学生开放。您可以通过以下方式参与：\n\n关注我们的GitHub仓库获取最新资料\n参加每周的线下/线上交流活动\n参与我们的开源项目\n\n\n\n\n资源中心\n\n技术文档与教程\n往期活动报道\n往期报告\n\n\n\n\n联系我们\n如有任何问题或合作意向，请通过以下方式联系我们：\n\n邮箱：yujunchuan@mail.cgs.gov.cn\n线下交流：北京市海淀区北四环中路267号 航遥大厦\n\n\n\n加入我们，共同探索AI技术的无限可能！"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "AGRS AI Tech Workshop",
     "section": "",
-    "text": "No matching items\n\n\n See all"
+    "text": "0 min\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\n讲座\n\n\nLLM\n\n\nAgent\n\n\n理论，AI\n\n\n \n\n\n\n\nMar 24, 2024\n\n\n于峻川\n\n\n0 min\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\n讲座\n\n\n理论，AI\n\n\n \n\n\n\n\nMar 10, 2024\n\n\n周坚鑫\n\n\n0 min\n\n\n\n\n\n\nNo matching items\n\n\n See all"
   },
   {
-    "objectID": "index.html#recent-talks",
-    "href": "index.html#recent-talks",
+    "objectID": "index.html#recent-reports",
+    "href": "index.html#recent-reports",
     "title": "AGRS AI Tech Workshop",
-    "section": "Recent Talks",
-    "text": "Recent Talks\n\n\n\n\n\nNo matching items\n\n\n See all"
+    "section": "Recent Reports",
+    "text": "Recent Reports\n\n\n\n\n  \n\n\n\n\n从DeepSeek到Agent——大语言模型驱动的科研范式革新\n\n\n\n\n\n\n\n\n\nMar 24, 2024\n\n\n\n\n\n\n  \n\n\n\n\n人工智能发展的昨天与今天\n\n\n\n\n\n\n\n\n\nMar 10, 2024\n\n\n\n\n\n\nNo matching items\n\n\n See all"
   },
   {
     "objectID": "index.html#recent-tutorial",
     "href": "index.html#recent-tutorial",
     "title": "AGRS AI Tech Workshop",
     "section": "Recent Tutorial",
-    "text": "Recent Tutorial\n\n\n\n\n\nNo matching items\n\n\n See all"
+    "text": "Recent Tutorial\n\n\n\n\n\n\n\n\n\n\n\n\n\nTutorials\n\n\n\n\n\n\n\n\n\n0 min\n\n\n\n\n\n\n  \n\n\n\n\nAdobe Illustrator for Scientific Graphic Design\n\n\nA free tutorial on using Adobe Illustrator for scientific graphic design (2023)\n\n\n\n\nTeaching\n\n\nAdobe illustrator\n\n\n \n\n\n\n\nSep 1, 2023\n\n\nJunchuan Yu\n\n\n2 min\n\n\n\n\n\n\nNo matching items\n\n\n See all"
   },
   {
-    "objectID": "News/2024-11-11gradio_p4/index.html",
-    "href": "News/2024-11-11gradio_p4/index.html",
-    "title": "使用Gradio构建交互式Web应用-P4",
+    "objectID": "News/AGRS_AI_001/index.html",
+    "href": "News/AGRS_AI_001/index.html",
+    "title": "人工智能发展的昨天与今天",
     "section": "",
-    "text": "这是一个关于如何使用 Gradio 构建 Web 应用程序的开源系列教程。你将从设置 Python 环境开始，学习文本、图像等各类输入组件，自定义界面，设计复杂的交互等。本课程还将涵盖使用 Gradio 和 GDAL 处理遥感数据，用于图像增强、地理坐标转换、坡度分析等任务；学习如何使用 Gradio 和 Foliumap 创建交互式地图，实现动态地理空间数据可视化；如何集成机器学习模型并在 Hugging Face Spaces 上发布 web 应用程序。本教程包括实例、演示和作业。完成本教程后，你将能够高效地构建、部署和共享交互式 Web 应用程序。\n\n 课程相关资源链接GITHUB\n\n\n\n\n\n\n\n\n\n随着大语言模型（LLM）的迅速普及，国内陆续推出了诸如 Kimi、豆包、通义千问等出色的 LLM，为科研人员提供了更为丰富的研究工具与平台。本案例详细展示了如何基于 Gradio 和 Kimi 构建一个自定义的聊天机器人，你可以根据自己的需求设定机器人的角色属性和技能。Gradio 提供了简洁的前端界面，其中包含基础的对话窗口以及重置功能，用户能够在这个界面中输入文本，并与模型进行交互。利用Gradio也可以完成更为复杂的界面开发，如聊天记录保存、机器人角色切换、Token限定等等。聊天机制是通过调用 Moonshot AI 的 API，借助 Kimi 大语言模型来实现的，实际上大部分具备API调用能力的LLM（如ChatGPT）调用方式都是类似的。通常在调用API获取聊天机器人回复时，大致有两种方式，一种是一次性输出，一种是流式输出（Streaming）。在本案例中将介绍一次性输出的写法，Streaming的写法可参考Moonshot AI的开发文档。\n\n\n\nfrom openai import OpenAI\nimport gradio as gr\n\n# 设置 Moonshot AI 的 API 密钥；你可以在官网 https://platform.moonshot.cn/ 申请自己的密钥\nMOONSHOT_API_KEY = \"your API KEY\"  # 你的 API 密钥 \"sk-....\"\n\n# 给机器人定义一个角色，明确其技能和限制条件\nyourole='''\n# Role\nKIMI is a laid-back and slightly cynical scientific research assistant. He possesses a wealth of scientific knowledge, has a relaxed and humorous personality, and can interact with users in a light-hearted manner.\n\n## Skills\n### Skill 1: Polish scientific papers and add humorous comments\n### Skill 2: Provide professional term translation and humorously explain the meaning\n\n## Limitations\n- You will refuse to answer any questions involving terrorism, racial discrimination, pornography, or violence.\n- The conversation should be kept in a relaxed and humorous style.\n'''\n\n# 定义与 Kimi 聊天的函数\ndef KimiChat(query: str, temperautre: float = 0.5) -> str:\n    \"\"\"\n    :param query: 用户的查询字符串。\n    :param temperature: 用于控制回答的随机性，范围从 0 到 1。\n    :return: Kimi 的响应。\n    \"\"\"\n    # 使用 Moonshot AI 的 API 密钥创建 OpenAI 客户端\n    client = OpenAI(\n        api_key=MOONSHOT_API_KEY,\n        base_url=\"https://api.moonshot.cn/v1\",\n    )\n\n    # 调用 API 生成聊天响应\n    completion = client.chat.completions.create(\n        model=\"moonshot-v1-8k\",\n        messages=[\n            {\"role\": \"system\", \"content\": yourole},\n            {\"role\": \"user\", \"content\": query}\n        ],\n        temperature=temperautre,\n    )\n    # print(completion)\n    return completion.choices[0].message.content\n\n# 重置所有变量\ndef reset_state():\n    return [], [], gr.update(value=\"\")\n\n# 重置文本框\ndef reset_textbox():\n    return gr.update(value=\"\")\n\n# 定义一个函数来处理用户输入和历史消息\ndef message_and_history(input: str, history: list = None):\n    history = history or []\n    s = list(sum(history, ()))\n    s.append(input)\n    inp = ' '.join(s)\n    output = KimiChat(inp)\n    history.append((input, output))\n    # clear_mess()\n    return history, history  # 返回更新后的历史记录\n\nwith gr.Blocks(theme=gr.themes.Soft()) as demo:\n    # 创建一个状态组件来保存聊天历史\n    state = gr.State()\n    gr.HTML(\"\"\"\n                <center> \n                <h1> 使用 Gradio 和 Kimi 构建聊天机器人 🤖 </h1>\n                <b> jason.yu.mail@qq.com  📧<b>\n                </center>\n                \"\"\")\n    chatbot = gr.Chatbot(height=500)\n    message = gr.Textbox(show_label=False, placeholder=\"输入文本并按下提交\", visible=True)\n    # 创建一个发送按钮并指定处理点击事件的函数；或者，像这个例子中一样，你可以设置 submit 在按下回车键时自动发送\n    # submit = gradio.Button(\"Submit\", variant=\"primary\")\n    # 设置点击发送按钮时要调用的函数，并指定输入和输出\n    emptyBtn = gr.Button(\"重新开始对话\", variant=\"primary\")\n    emptyBtn.click(reset_state, outputs=[chatbot, state, message], show_progress=True)\n    message.submit(message_and_history, inputs=[message, state], outputs=[chatbot, state])\n    message.submit(reset_textbox, outputs=[message])\n\ndemo.launch(debug=False)\n\n\n\n\n\n\n\n请关注微信公众号【45度科研人】回复“@gradio”获取该教程配套数据，欢迎后台留言！\n\n\n  \n\n\n\n为了促进沟通与交流，我们建立了「养生科研」学术交流群。这个平台不仅能够让大家迅速获取本公众号的资源，还为各位提供了一个共同探讨问题、交流思想的空间。有意向加入交流群的朋友们，可以通过添加小编的微信来获得入群邀请。请注意，在添加时请按照“加群-单位-研究方向-姓名”的格式备注您的信息，否则您的申请可能无法通过。"
+    "text": "2024年3月10日，航遥中心AI兴趣班迎来首次系列讲座。本次讲座由周坚鑫同志主讲，以”人工智能的历史与发展”为主题，旨在提升技术人员对AI技术的认知与应用能力，为中心工作注入新的活力。"
+  },
+  {
+    "objectID": "News/AGRS_AI_001/index.html#讲座内容",
+    "href": "News/AGRS_AI_001/index.html#讲座内容",
+    "title": "人工智能发展的昨天与今天",
+    "section": "讲座内容",
+    "text": "讲座内容\n\nAI发展历程\n讲座系统梳理了人工智能的发展脉络：\n\n早期里程碑\n\n图灵测试的提出\n达特茅斯会议开启人工智能学科新篇章\n\n技术演进\n\n深度学习的兴起与发展\n生成式人工智能的蓬勃发展\n\n\n\n\n全球发展态势\n\n谷歌、苹果等科技巨头积极布局AI领域\nAI技术在全球竞争中占据核心地位\n\n\n\n应用领域\n人工智能已在多个领域展现出强大潜力： - 医疗健康 - 金融服务 - 司法系统\n\n\n航空物探遥感应用\n在本领域，AI技术具有显著优势： - 高效处理海量遥感数据 - 精准识别地质构造 - 提升矿产资源分布识别精度 - 大幅提升勘探效率与精准度"
+  },
+  {
+    "objectID": "News/AGRS_AI_001/index.html#未来展望",
+    "href": "News/AGRS_AI_001/index.html#未来展望",
+    "title": "人工智能发展的昨天与今天",
+    "section": "未来展望",
+    "text": "未来展望\n周坚鑫同志强调，AI兴趣班的设立旨在充分激发大家学习AI技术的积极性，鼓励技术人员主动组织学习交流活动，形成良好的学习氛围。兴趣组计划在后续工作中持续邀请相关领域专家开展系列讲座，进一步推动职工对AI技术的学习与应用，助力中心工作在人工智能时代实现新突破。通过这些持续性的学习和交流活动，将为中心的技术创新和发展注入新的活力。"
+  },
+  {
+    "objectID": "News/AGRS_AI_002/index.html",
+    "href": "News/AGRS_AI_002/index.html",
+    "title": "从DeepSeek到Agent——大语言模型驱动的科研范式革新",
+    "section": "",
+    "text": "2024年3月24日，航遥中心AI兴趣班迎来第二期系列讲座。本次讲座采用线上线下混合模式，由遥感应用技术研究所的于峻川同志主讲，主题为”从DeepSeek到Agent：大语言模型驱动下的科研范式创新”。"
+  },
+  {
+    "objectID": "News/AGRS_AI_002/index.html#核心内容",
+    "href": "News/AGRS_AI_002/index.html#核心内容",
+    "title": "从DeepSeek到Agent——大语言模型驱动的科研范式革新",
+    "section": "核心内容",
+    "text": "核心内容\n\n大语言模型发展历程\n讲座深入剖析了大语言模型面临的主要困境： - 闭源生态问题 - 资源高消耗问题 - 数据低质化 - 算力政治化\n重点介绍了DeepSeek的技术创新： - 降低模型训练成本的有效方案 - DeepSeek-r1 Zero的历史性突破 - 推动AI技术开源进程的举措\n\n\n科研范式的革新\n大语言模型为科研工作带来的变革： - 重塑传统科研范式 - 显著提升科研效率 - 打破思维边界 - 与LLM相结合的优质案例分析\n\n\n技术实践与部署方案\n详细探讨了多个实施层面： - LLM本地化部署解决方案 - 基于RAG的知识库构建方法论 - LLM企业级部署方案 - 智能平台搭建指南\n\n\n能力建设与团队发展\n\n个人能力提升\n\nAI时代必备的核心技能\n持续学习的方向指引\n\n\n\n团队建设要点\n\n技术协同策略\n创新能力培养\n\n\n\n\n技术应用挑战与对策\n现存挑战： - API接口差异问题 - 数据隐私保护需求 - 其他技术落地难点\n应对策略： - 实用性解决方案 - 具体实施建议"
+  },
+  {
+    "objectID": "News/AGRS_AI_002/index.html#总结与展望",
+    "href": "News/AGRS_AI_002/index.html#总结与展望",
+    "title": "从DeepSeek到Agent——大语言模型驱动的科研范式革新",
+    "section": "总结与展望",
+    "text": "总结与展望\n此次授课内容充实丰富，为中心技术人员在人工智能领域的学习与工作注入了新的思路，指明了前行方向。通过深入浅出的讲解和实际案例分析，帮助团队更好地理解和把握大语言模型技术的发展趋势与应用潜力，这将有力推动航空物探与遥感领域在AI浪潮中实现创新突破，稳健发展。"
   },
   {
     "objectID": "News/index.html",
     "href": "News/index.html",
-    "title": "Posts",
+    "title": "News",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n\nGradio与机器学习应用（下）\n\n\n\nNov 11, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n\n\nMar 24, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMar 10, 2024\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "Reports/2024-7-21 NLIBTALKS/main.html",
-    "href": "Reports/2024-7-21 NLIBTALKS/main.html",
-    "title": "天空之眼——“AI+遥感”探索地球新视野",
+    "objectID": "Reports/aireport001/main.html",
+    "href": "Reports/aireport001/main.html",
+    "title": "人工智能发展的昨天与今天",
     "section": "",
-    "text": "Slides:"
+    "text": "全屏观看链接"
+  },
+  {
+    "objectID": "Reports/aireport002/main.html",
+    "href": "Reports/aireport002/main.html",
+    "title": "从DeepSeek到Agent——大语言模型驱动的科研范式革新",
+    "section": "",
+    "text": "全屏观看链接:"
   },
   {
     "objectID": "Reports/index.html",
     "href": "Reports/index.html",
-    "title": "Talks",
+    "title": "Reports",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\n\n首都图书馆成长课堂——看见未来 (2024)\n\n\n\n\n\n\nJul 22, 2024\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\n从DeepSeek到Agent——大语言模型驱动的科研范式革新\n\n\n\n\n\n\n\n\n\nMar 24, 2024\n\n\n\n\n\n\n  \n\n\n\n\n人工智能发展的昨天与今天\n\n\n\n\n\n\n\n\n\nMar 10, 2024\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "Tutorials/Adobe_Illustrator_for_Scientific_Graphic_Design/index.html",
@@ -65,7 +107,7 @@
   {
     "objectID": "Tutorials/index.html",
     "href": "Tutorials/index.html",
-    "title": "Teaching",
+    "title": "Tutorials",
     "section": "",
     "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\n\nA free tutorial on using Adobe Illustrator for scientific graphic design (2023)\n\n\n\n\n\n\nSep 1, 2023\n\n\n\n\n\n\nNo matching items"
   }

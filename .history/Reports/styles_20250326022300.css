@@ -1,0 +1,24 @@
+body {
+    max-width: 100% !important;
+}
+
+.content-block, 
+.quarto-title-block,
+.page-columns,
+main,
+.quarto-container {
+    max-width: 80% !important;
+    width: 80% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+article.quarto-container {
+    padding: 0 !important;
+}
+
+#quarto-content {
+    width: 80% !important;
+    max-width: 80% !important;
+    margin: 0 auto !important;
+}

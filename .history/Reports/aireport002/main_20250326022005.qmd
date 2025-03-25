@@ -1,0 +1,16 @@
+---
+title: "从DeepSeek到Agent——大语言模型驱动的科研范式革新"
+author: "AGRS AI Tech Workshop"
+date: "2024-03-24"
+categories: [讲座, LLM, Agent,理论，AI]
+description: "AI Tech Workshop系列讲座（二）
+image: index.jpg  # 如果有封面图片的话
+---
+
+
+## Slides
+
+-   [Slides](https://yujc.quarto.pub/aireport002/#/section):
+
+
+<iframe src="https://yujc.quarto.pub/aireport002/#/section" frameborder="0" width="100%" ></iframe>

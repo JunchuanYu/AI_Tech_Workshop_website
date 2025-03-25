@@ -1,0 +1,7 @@
+{
+    "quarto.visualEditor.defaultMode": "source",
+    "[quarto]": {
+        "editor.defaultFormatter": "text",
+        "editor.formatOnSave": false
+    }
+} 
