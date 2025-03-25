@@ -1,5 +1,5 @@
 ---
-title: "欢迎来到AGRS AI Tech Workshop !"
+title: "AGRS AI Tech Workgrop"
 comments: false
 # image: aitech-02.png
 # image-width: 100px        # 控制 logo 宽度
@@ -10,12 +10,12 @@ about:
     - icon: envelope
       text: Email
       href: mailto:yujunchuan@mail.cgs.gov.cn
-    # - icon: file-pdf
+    - icon: file-pdf
       # text: Resume
       # href: '缺pdf'
     - icon: github
       text: GitHub
-      href: https://github.com/JunchuanYu/AGRS-AI-Tech-Workshop
+      href: https://github.com/JunchuanYu/AGRS-AI-Tech-Workgroup
     # - icon: book
     #   text: Zhihu
     #   href: https://www.zhihu.com/people/yu-jun-chuan-84
@@ -26,6 +26,10 @@ format:
   html:
     css: styles.css
 ---
+
+
+
+### 欢迎来到AGRS AI Tech Workshop
 
 <div align="center">
   <figure>

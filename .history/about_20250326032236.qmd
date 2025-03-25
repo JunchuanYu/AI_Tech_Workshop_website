@@ -1,5 +1,5 @@
 ---
-title: "欢迎来到AGRS AI Tech Workshop !"
+title: "欢迎来到AGRS AI Tech Workshop"
 comments: false
 # image: aitech-02.png
 # image-width: 100px        # 控制 logo 宽度
@@ -26,6 +26,8 @@ format:
   html:
     css: styles.css
 ---
+
+
 
 <div align="center">
   <figure>
