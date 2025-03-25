@@ -10,7 +10,7 @@ website:
   repo-actions: [issue]
   google-analytics: "G-2J79YYG9CZ"
   page-footer:
-    left: "Created by [Junchuan Yu](https://github.com/JunchuanYu)"
+    left: "Created by by [Junchuan Yu](https://github.com/JunchuanYu) . "
     right:
       - icon: envelope
         text: Email
