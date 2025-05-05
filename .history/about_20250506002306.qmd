@@ -1,16 +1,41 @@
-### 欢迎来到AI Tech Workshop 
+---
+title: "欢迎来到AGRS AI Tech Workshop !"
+comments: false
+# image: aitech-02.png
+# image-width: 100px        # 控制 logo 宽度
+# image-shape: rectangle    # 可选 rectangle 或 round
+about:
+  template: solana
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:yujunchuan@mail.cgs.gov.cn
+    # - icon: file-pdf
+      # text: Resume
+      # href: '缺pdf'
+    - icon: github
+      text: GitHub
+      href: https://github.com/JunchuanYu/AI-Tech-Workshop
+    # - icon: book
+    #   text: Zhihu
+    #   href: https://www.zhihu.com/people/yu-jun-chuan-84
+    # - icon: bootstrap
+    #   text: Bilibili
+    #   href: https://space.bilibili.com/18814004/
+format:
+  html:
+    css: styles.css
+---
 
 <div align="center">
   <figure>
-    <img src="https://dunazo.oss-cn-beijing.aliyuncs.com/blog/aitech-02.png" width="60%">
+    <img src="https://dunazo.oss-cn-beijing.aliyuncs.com/blog/aitech-05.png" width="60%">
     <figcaption>
     </figcaption>
   </figure>
 </div>
 
-
 AI Tech Workshop是由中国自然资源航空物探遥感中心周坚鑫教授组织的前沿人工智能技术交流平台。我们致力于推动AI技术在遥感、物探及地学相关领域的创新应用与发展。
-本repo由于峻川建立，目的是为Workshop的参与者们提供相关学习资料及教学案例。
 
 <br/>
 
@@ -63,8 +88,6 @@ AI Tech Workshop是由中国自然资源航空物探遥感中心周坚鑫教授�
 
 如有任何问题或合作意向，请通过以下方式联系我们：
 
-- 主页：aitech-ws.netlify.app
-  
 - 邮箱：yujunchuan@mail.cgs.gov.cn 
 
 - 线下交流：北京市海淀区北四环中路267号 航遥大厦
@@ -72,3 +95,7 @@ AI Tech Workshop是由中国自然资源航空物探遥感中心周坚鑫教授�
 
 <br/>
 
+
+---
+
+**加入我们，共同探索AI技术的无限可能！**
