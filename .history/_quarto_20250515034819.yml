@@ -10,14 +10,14 @@ website:
   repo-actions: [issue]
   google-analytics: "G-2J79YYG9CZ"
   page-footer:
-    left: "Created by [于峻川](https://junchuanyu.netlify.app/posts/)"
+    left: "Created by [于峻川](https://github.com/JunchuanYu)"
     right:
       - icon: envelope
         text: Email
         href: mailto:yujunchuan@mail.cgs.gov.cn
       - icon: github
         text: GitHub
-        href: https://github.com/JunchuanYu/
+        href: https://github.com/JunchuanYu/AI-Tech-Workshop
 
   navbar:
     right:

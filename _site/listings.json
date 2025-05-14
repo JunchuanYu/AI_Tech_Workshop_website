@@ -3,8 +3,10 @@
     "listing": "/index.html",
     "items": [
       "/News/index.html",
+      "/News/AGRS_AI_003/index.html",
       "/News/AGRS_AI_002/index.html",
       "/News/AGRS_AI_001/index.html",
+      "/Reports/aireport003/main.html",
       "/Reports/aireport002/main.html",
       "/Reports/aireport001/main.html",
       "/Tutorials/index.html",
@@ -14,6 +16,7 @@
   {
     "listing": "/News/index.html",
     "items": [
+      "/News/AGRS_AI_003/index.html",
       "/News/AGRS_AI_002/index.html",
       "/News/AGRS_AI_001/index.html"
     ]
@@ -21,6 +24,7 @@
   {
     "listing": "/Reports/index.html",
     "items": [
+      "/Reports/aireport003/main.html",
       "/Reports/aireport002/main.html",
       "/Reports/aireport001/main.html"
     ]

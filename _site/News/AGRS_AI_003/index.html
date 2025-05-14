@@ -6,11 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="于峻川">
-<meta name="dcterms.date" content="2025-03-24">
-<meta name="description" content="AI Tech Workshop系列讲座（二）">
+<meta name="author" content="孟庆奎">
+<meta name="dcterms.date" content="2025-04-17">
+<meta name="description" content="AI Tech Workshop系列讲座（三）">
 
-<title>从DeepSeek到Agent——大语言模型驱动的科研范式革新</title>
+<title>人工智能与重磁数据处理</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -80,8 +80,8 @@ gtag('config', 'G-2J79YYG9CZ', { 'anonymize_ip': true});
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">
 <meta property="og:url" content="">
-<meta property="og:title" content="从DeepSeek到Agent——大语言模型驱动的科研范式革新">
-<meta property="og:description" content="AI Tech Workshop系列讲座（二）">
+<meta property="og:title" content="人工智能与重磁数据处理">
+<meta property="og:description" content="AI Tech Workshop系列讲座（三）">
 <meta property="og:image" content="">
 
 <!-- Twitter -->
@@ -138,16 +138,16 @@ gtag('config', 'G-2J79YYG9CZ', { 'anonymize_ip': true});
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">从DeepSeek到Agent——大语言模型驱动的科研范式革新</h1>
+      <h1 class="title">人工智能与重磁数据处理</h1>
                   <div>
         <div class="description">
-          AI Tech Workshop系列讲座（二）
+          AI Tech Workshop系列讲座（三）
         </div>
       </div>
                           <div class="quarto-categories">
                 <div class="quarto-category">讲座</div>
                 <div class="quarto-category">LLM</div>
-                <div class="quarto-category">Agent</div>
+                <div class="quarto-category">物探</div>
                 <div class="quarto-category">理论，AI</div>
               </div>
                   </div>
@@ -159,14 +159,14 @@ gtag('config', 'G-2J79YYG9CZ', { 'anonymize_ip': true});
       <div>
       <div class="quarto-title-meta-heading">Author</div>
       <div class="quarto-title-meta-contents">
-               <p>于峻川 </p>
+               <p>孟庆奎 </p>
             </div>
     </div>
       
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">March 24, 2025</p>
+        <p class="date">April 17, 2025</p>
       </div>
     </div>
       
@@ -184,11 +184,10 @@ gtag('config', 'G-2J79YYG9CZ', { 'anonymize_ip': true});
   <li><a href="#讲座概要" id="toc-讲座概要" class="nav-link active" data-scroll-target="#讲座概要">讲座概要</a></li>
   <li><a href="#核心内容" id="toc-核心内容" class="nav-link" data-scroll-target="#核心内容">核心内容</a>
   <ul class="collapse">
-  <li><a href="#大语言模型发展历程" id="toc-大语言模型发展历程" class="nav-link" data-scroll-target="#大语言模型发展历程">大语言模型发展历程</a></li>
-  <li><a href="#科研范式的革新" id="toc-科研范式的革新" class="nav-link" data-scroll-target="#科研范式的革新">科研范式的革新</a></li>
-  <li><a href="#技术实践与部署方案" id="toc-技术实践与部署方案" class="nav-link" data-scroll-target="#技术实践与部署方案">技术实践与部署方案</a></li>
-  <li><a href="#能力建设与团队发展" id="toc-能力建设与团队发展" class="nav-link" data-scroll-target="#能力建设与团队发展">能力建设与团队发展</a></li>
-  <li><a href="#技术应用挑战与对策" id="toc-技术应用挑战与对策" class="nav-link" data-scroll-target="#技术应用挑战与对策">技术应用挑战与对策</a></li>
+  <li><a href="#重磁数据处理技术" id="toc-重磁数据处理技术" class="nav-link" data-scroll-target="#重磁数据处理技术">重磁数据处理技术</a></li>
+  <li><a href="#深度学习技术挑战与解决方案" id="toc-深度学习技术挑战与解决方案" class="nav-link" data-scroll-target="#深度学习技术挑战与解决方案">深度学习技术挑战与解决方案</a></li>
+  <li><a href="#大模型应用探索" id="toc-大模型应用探索" class="nav-link" data-scroll-target="#大模型应用探索">大模型应用探索</a></li>
+  <li><a href="#航空物探技术融合" id="toc-航空物探技术融合" class="nav-link" data-scroll-target="#航空物探技术融合">航空物探技术融合</a></li>
   </ul></li>
   <li><a href="#总结与展望" id="toc-总结与展望" class="nav-link" data-scroll-target="#总结与展望">总结与展望</a></li>
   </ul>
@@ -202,50 +201,91 @@ gtag('config', 'G-2J79YYG9CZ', { 'anonymize_ip': true});
 
 <section id="讲座概要" class="level2">
 <h2 class="anchored" data-anchor-id="讲座概要">讲座概要</h2>
-<p>2025年3月24日，航遥中心AI兴趣班迎来第二期系列讲座。本次讲座采用线上线下混合模式，由遥感应用技术研究所的于峻川同志主讲，主题为”从DeepSeek到Agent：大语言模型驱动下的科研范式创新”。</p>
-<p><img src="https://dunazo.oss-cn-beijing.aliyuncs.com/blog/4.jpg" class="img-fluid"></p>
+<p>2025年4月17日，航遥中心AI兴趣班系列讲座第三讲如期举行。本次讲座延续线上线下同步进行模式，由应用地质研究中心孟庆奎高级工程师主讲，以”人工智能与重磁数据处理”为主题，结合地球物理数据处理与人工智能领域研究成果，为中心技术人员带来前沿技术分享。</p>
+<p><img src="https://dunazo.oss-cn-beijing.aliyuncs.com/blog/aireport1.jpg" class="img-fluid"></p>
 </section>
 <section id="核心内容" class="level2">
 <h2 class="anchored" data-anchor-id="核心内容">核心内容</h2>
-<section id="大语言模型发展历程" class="level3">
-<h3 class="anchored" data-anchor-id="大语言模型发展历程">大语言模型发展历程</h3>
-<p>讲座深入剖析了大语言模型面临的主要困境： - 闭源生态问题 - 资源高消耗问题 - 数据低质化 - 算力政治化</p>
-<p>重点介绍了DeepSeek的技术创新： - 降低模型训练成本的有效方案 - DeepSeek-r1 Zero的历史性突破 - 推动AI技术开源进程的举措</p>
-</section>
-<section id="科研范式的革新" class="level3">
-<h3 class="anchored" data-anchor-id="科研范式的革新">科研范式的革新</h3>
-<p>大语言模型为科研工作带来的变革： - 重塑传统科研范式 - 显著提升科研效率 - 打破思维边界 - 与LLM相结合的优质案例分析</p>
-</section>
-<section id="技术实践与部署方案" class="level3">
-<h3 class="anchored" data-anchor-id="技术实践与部署方案">技术实践与部署方案</h3>
-<p>详细探讨了多个实施层面： - LLM本地化部署解决方案 - 基于RAG的知识库构建方法论 - LLM企业级部署方案 - 智能平台搭建指南</p>
-</section>
-<section id="能力建设与团队发展" class="level3">
-<h3 class="anchored" data-anchor-id="能力建设与团队发展">能力建设与团队发展</h3>
-<section id="个人能力提升" class="level4">
-<h4 class="anchored" data-anchor-id="个人能力提升">个人能力提升</h4>
+<section id="重磁数据处理技术" class="level3">
+<h3 class="anchored" data-anchor-id="重磁数据处理技术">重磁数据处理技术</h3>
 <ul>
-<li>AI时代必备的核心技能</li>
-<li>持续学习的方向指引</li>
+<li><strong>技术现状分析</strong>：
+<ul>
+<li>深度学习在地震勘探领域（2017年后）应用兴起</li>
+<li>重磁数据处理在去噪、位场分离、三维反演等环节具有显著优势</li>
+</ul></li>
+<li><strong>实践案例分享</strong>：
+<ul>
+<li>基于月球卫星重力数据的去噪实验</li>
+<li>采用改进U-net网络构建1万+训练样本集</li>
+<li>引入拉普拉斯约束项优化噪声抑制效果</li>
+<li>效果优于传统全方向滤波和高斯滤波方法</li>
+</ul></li>
 </ul>
 </section>
-<section id="团队建设要点" class="level4">
-<h4 class="anchored" data-anchor-id="团队建设要点">团队建设要点</h4>
+<section id="深度学习技术挑战与解决方案" class="level3">
+<h3 class="anchored" data-anchor-id="深度学习技术挑战与解决方案">深度学习技术挑战与解决方案</h3>
 <ul>
-<li>技术协同策略</li>
-<li>创新能力培养</li>
+<li><strong>现存问题</strong>：
+<ul>
+<li>模型泛化能力不足</li>
+<li>可解释性弱</li>
+<li>物理一致性缺失</li>
+</ul></li>
+<li><strong>创新突破</strong>：
+<ul>
+<li>融合地球物理领域知识的解决方案</li>
+<li>数据样本质量提升策略</li>
+<li>约束条件优化方法</li>
+<li>物理先验知识的网络架构设计</li>
+</ul></li>
 </ul>
 </section>
+<section id="大模型应用探索" class="level3">
+<h3 class="anchored" data-anchor-id="大模型应用探索">大模型应用探索</h3>
+<ul>
+<li><strong>开发平台实践</strong>：
+<ul>
+<li>VSCode集成开发环境</li>
+<li>DeepSeek/GitHubCopilot大模型API接入</li>
+<li>插件集成实现代码生成与调试优化</li>
+</ul></li>
+<li><strong>行业应用调研</strong>：
+<ul>
+<li>“九天”大模型（通信领域）</li>
+<li>“元景”大模型（工业领域）</li>
+<li>“后土”大模型（自然资源管理领域）</li>
+</ul></li>
+<li><strong>技术路线建议</strong>：
+<ul>
+<li>“蒸馏-精调-强化学习”三阶段实施方案</li>
+<li>数据预处理标准化方案</li>
+<li>模型轻量化部署策略</li>
+<li>行业场景适配原则</li>
+</ul></li>
+</ul>
 </section>
-<section id="技术应用挑战与对策" class="level3">
-<h3 class="anchored" data-anchor-id="技术应用挑战与对策">技术应用挑战与对策</h3>
-<p>现存挑战： - API接口差异问题 - 数据隐私保护需求 - 其他技术落地难点</p>
-<p>应对策略： - 实用性解决方案 - 具体实施建议</p>
+<section id="航空物探技术融合" class="level3">
+<h3 class="anchored" data-anchor-id="航空物探技术融合">航空物探技术融合</h3>
+<ul>
+<li><strong>创新方向</strong>：
+<ul>
+<li>深度学习与航空物探技术结合</li>
+<li>遥感数据处理智能化</li>
+<li>多源数据融合算法优化</li>
+</ul></li>
+<li><strong>实施路径</strong>：
+<ul>
+<li>数据采集标准体系构建</li>
+<li>算法模型迁移应用方案</li>
+<li>业务场景适配性验证</li>
+</ul></li>
+</ul>
 </section>
 </section>
 <section id="总结与展望" class="level2">
 <h2 class="anchored" data-anchor-id="总结与展望">总结与展望</h2>
-<p>此次授课内容充实丰富，为中心技术人员在人工智能领域的学习与工作注入了新的思路，指明了前行方向。通过深入浅出的讲解和实际案例分析，帮助团队更好地理解和把握大语言模型技术的发展趋势与应用潜力，这将有力推动航空物探与遥感领域在AI浪潮中实现创新突破，稳健发展。</p>
+<p>此次讲座内容前沿、逻辑清晰，既系统梳理了人工智能在地球物理领域的技术现状，又深入探讨了行业融合的创新路径，为中心技术人员在人工智能领域的学习与实践注入了新思路。通过理论与实践结合的深度解析，帮助团队把握AI技术发展机遇，在航空物探与遥感业务中实现技术突破，推动领域高质量协同发展。</p>
 
 
 </section>

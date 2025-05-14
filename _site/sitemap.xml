@@ -2,42 +2,50 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://agrsai.netlify.app/about.html</loc>
-    <lastmod>2025-05-05T16:29:07.240Z</lastmod>
+    <lastmod>2025-05-14T19:54:08.386Z</lastmod>
   </url>
   <url>
     <loc>https://agrsai.netlify.app/index.html</loc>
-    <lastmod>2025-05-05T16:29:08.354Z</lastmod>
+    <lastmod>2025-05-14T19:54:09.604Z</lastmod>
   </url>
   <url>
     <loc>https://agrsai.netlify.app/News/AGRS_AI_001/index.html</loc>
-    <lastmod>2025-05-05T16:29:09.059Z</lastmod>
+    <lastmod>2025-05-14T19:54:10.430Z</lastmod>
   </url>
   <url>
     <loc>https://agrsai.netlify.app/News/AGRS_AI_002/index.html</loc>
-    <lastmod>2025-05-05T16:29:09.805Z</lastmod>
+    <lastmod>2025-05-14T19:54:11.284Z</lastmod>
+  </url>
+  <url>
+    <loc>https://agrsai.netlify.app/News/AGRS_AI_003/index.html</loc>
+    <lastmod>2025-05-14T19:54:12.006Z</lastmod>
   </url>
   <url>
     <loc>https://agrsai.netlify.app/News/index.html</loc>
-    <lastmod>2025-05-05T16:29:10.545Z</lastmod>
+    <lastmod>2025-05-14T19:54:12.770Z</lastmod>
   </url>
   <url>
     <loc>https://agrsai.netlify.app/Reports/aireport001/main.html</loc>
-    <lastmod>2025-05-05T16:29:11.222Z</lastmod>
+    <lastmod>2025-05-14T19:54:13.543Z</lastmod>
   </url>
   <url>
     <loc>https://agrsai.netlify.app/Reports/aireport002/main.html</loc>
-    <lastmod>2025-05-05T16:29:11.880Z</lastmod>
+    <lastmod>2025-05-14T19:54:14.331Z</lastmod>
+  </url>
+  <url>
+    <loc>https://agrsai.netlify.app/Reports/aireport003/main.html</loc>
+    <lastmod>2025-05-14T19:54:15.029Z</lastmod>
   </url>
   <url>
     <loc>https://agrsai.netlify.app/Reports/index.html</loc>
-    <lastmod>2025-05-05T16:29:12.633Z</lastmod>
+    <lastmod>2025-05-14T19:54:15.768Z</lastmod>
   </url>
   <url>
     <loc>https://agrsai.netlify.app/Tutorials/Adobe_Illustrator_for_Scientific_Graphic_Design/index.html</loc>
-    <lastmod>2025-05-05T16:29:13.385Z</lastmod>
+    <lastmod>2025-05-14T19:54:16.516Z</lastmod>
   </url>
   <url>
     <loc>https://agrsai.netlify.app/Tutorials/index.html</loc>
-    <lastmod>2025-05-05T16:29:14.102Z</lastmod>
+    <lastmod>2025-05-14T19:54:17.274Z</lastmod>
   </url>
 </urlset>
