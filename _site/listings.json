@@ -6,6 +6,7 @@
       "/News/AGRS_AI_003/index.html",
       "/News/AGRS_AI_002/index.html",
       "/News/AGRS_AI_001/index.html",
+      "/Reports/geopython001/main.html",
       "/Reports/aireport003/main.html",
       "/Reports/aireport002/main.html",
       "/Reports/aireport001/main.html",
@@ -24,6 +25,7 @@
   {
     "listing": "/Reports/index.html",
     "items": [
+      "/Reports/geopython001/main.html",
       "/Reports/aireport003/main.html",
       "/Reports/aireport002/main.html",
       "/Reports/aireport001/main.html"

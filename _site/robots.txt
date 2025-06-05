@@ -1,1 +1,1 @@
-Sitemap: https://agrsai.netlify.app/sitemap.xml
+Sitemap: aitech-ws.netlify.app/sitemap.xml

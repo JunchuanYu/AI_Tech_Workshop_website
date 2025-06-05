@@ -1,5 +1,5 @@
 ---
-title: "AI Tech Workshop"
+title: "AGRS AI Tech Workshop"
 listing:
   - id: News
     contents: News/**/{index.qmd,index.md,index.ipynb}

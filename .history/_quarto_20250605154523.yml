@@ -3,21 +3,21 @@ project:
 
 website:
   page-navigation: true
-  # title: "AGRS AI Tech Workshop"
+  # title: "AI Tech Workshop"
   favicon: favicon.ico
-  site-url: "https://agrsai.netlify.app/"
+  site-url: "aitech-ws.netlify.app/"
   repo-url: ""
   repo-actions: [issue]
   google-analytics: "G-2J79YYG9CZ"
   page-footer:
-    left: "Created by [Junchuan Yu](https://github.com/JunchuanYu)"
+    left: "Created by [于峻川](https://junchuanyu.netlify.app/posts/)"
     right:
       - icon: envelope
         text: Email
         href: mailto:yujunchuan@mail.cgs.gov.cn
       - icon: github
         text: GitHub
-        href: https://github.com/JunchuanYu/AGRS-AI-Tech-Workshop
+        href: https://github.com/JunchuanYu/
 
   navbar:
     right:
@@ -30,13 +30,12 @@ website:
       - text: Tutorials
         href: Tutorials/index.qmd
       - icon: github
-        href: https://github.com/JunchuanYu/AGRS-AI-Tech-Workshop
+        href: https://github.com/JunchuanYu/AI-Tech-Workshop
       # - icon: book
       #   href: https://www.zhihu.com/people/yu-jun-chuan-84
       # - icon: bootstrap
       #   href: https://space.bilibili.com/18814004/
     logo: "aitech-06.png"
-    # title: "AGRS"
 
 format:
   html:

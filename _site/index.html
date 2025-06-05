@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>AGRS AI Tech Workshop</title>
+<title>AI Tech Workshop</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -101,7 +101,8 @@ ul.task-list li input[type="checkbox"] {
 
     const options = {
       valueNames: ['listing-image','listing-date','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
+      page: 3,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
     };
 
@@ -165,7 +166,7 @@ gtag('config', 'G-2J79YYG9CZ', { 'anonymize_ip': true});
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">
 <meta property="og:url" content="">
-<meta property="og:title" content="AGRS AI Tech Workshop">
+<meta property="og:title" content="AI Tech Workshop">
 <meta property="og:description" content="Welcome!">
 <meta property="og:image" content="">
 
@@ -240,7 +241,7 @@ gtag('config', 'G-2J79YYG9CZ', { 'anonymize_ip': true});
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">AGRS AI Tech Workshop</h1>
+<h1 class="title">AI Tech Workshop</h1>
 </div>
 
 
@@ -422,7 +423,29 @@ No matching items
 <h2 class="anchored" data-anchor-id="recent-reports">Recent Reports</h2>
 <div id="listing-Reports" class="quarto-listing quarto-listing-container-default">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="讲座,LLM,物探,理论，AI" data-listing-date-sort="1744819200000" data-listing-file-modified-sort="1747251628820" data-listing-reading-time-sort="0.06">
+<div class="quarto-post image-right" data-index="0" data-categories="GeoPython Marathon,AI,Tutorial" data-listing-date-sort="1747324800000" data-listing-file-modified-sort="1749109384892" data-listing-reading-time-sort="3.775">
+<div class="thumbnail">
+<p><a href="./Reports/geopython001/main.html"> <img src="./Reports/geopython001/index.jpg" class="thumnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./Reports/geopython001/main.html">
+<h3 class="no-anchor listing-title">
+GeoPython101：开启你的Python之旅
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./Reports/geopython001/main.html">
+<div class="listing-date">
+May 16, 2025
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="讲座,LLM,物探,理论，AI" data-listing-date-sort="1744819200000" data-listing-file-modified-sort="1747251628820" data-listing-reading-time-sort="0.06">
 <div class="thumbnail">
 <p><a href="./Reports/aireport003/main.html"> <img src="./Reports/aireport003/index.jpg" class="thumnail-image"> </a></p>
 </div>
@@ -444,7 +467,7 @@ Apr 17, 2025
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="讲座,LLM,Agent,理论，AI" data-listing-date-sort="1742745600000" data-listing-file-modified-sort="1742955198481" data-listing-reading-time-sort="0.06">
+<div class="quarto-post image-right" data-index="2" data-categories="讲座,LLM,Agent,理论，AI" data-listing-date-sort="1742745600000" data-listing-file-modified-sort="1742955198481" data-listing-reading-time-sort="0.06">
 <div class="thumbnail">
 <p><a href="./Reports/aireport002/main.html"> <img src="./Reports/aireport002/index.jpg" class="thumnail-image"> </a></p>
 </div>
@@ -466,9 +489,9 @@ Mar 24, 2025
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="讲座,理论，AI" data-listing-date-sort="1741536000000" data-listing-file-modified-sort="1742955180326" data-listing-reading-time-sort="0.08">
+<div class="quarto-post image-right" data-index="3" data-categories="讲座,理论，AI" data-listing-date-sort="1741536000000" data-listing-file-modified-sort="1742955180326" data-listing-reading-time-sort="0.08">
 <div class="thumbnail">
-<p><a href="./Reports/aireport001/main.html"> <img src="./Reports/aireport001/index.jpg" class="thumnail-image"> </a></p>
+<p><a href="./Reports/aireport001/main.html"> <img data-src="./Reports/aireport001/index.jpg" class="thumnail-image"> </a></p>
 </div>
 <div class="body">
 <a href="./Reports/aireport001/main.html">
@@ -492,6 +515,9 @@ Mar 10, 2025
 <div class="listing-no-matching d-none">
 No matching items
 </div>
+<nav id="Reports-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
 </div>
 <p><a href="../Reports/index.html"> <button type="button" class="btn btn-primary float-end btn-sm">See all</button></a></p>
 </section>

@@ -3,9 +3,9 @@ project:
 
 website:
   page-navigation: true
-  # title: "AGRS AI Tech Workshop"
+  # title: "AI Tech Workshop"
   favicon: favicon.ico
-  site-url: "https://agrsai.netlify.app/"
+  site-url: "aitech-ws.netlify.app/"
   repo-url: ""
   repo-actions: [issue]
   google-analytics: "G-2J79YYG9CZ"
@@ -36,7 +36,6 @@ website:
       # - icon: bootstrap
       #   href: https://space.bilibili.com/18814004/
     logo: "aitech-06.png"
-    # title: "AGRS"
 
 format:
   html:

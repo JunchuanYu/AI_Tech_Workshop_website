@@ -1,5 +1,5 @@
 ---
-title: "AI Tech Workshop"
+title: "AGRS AI Tech Workshop"
 listing:
   - id: News
     contents: News/**/{index.qmd,index.md,index.ipynb}
@@ -20,7 +20,7 @@ listing:
   #   filter-ui: false
   #   page-size: 3     
   - id: Reports
-    contents: Reports/**/{main.qmd,main.md,main.ipynb}
+    contents: Reports/**/{main.qmd,index.md,index.ipynb}
     type: default
     fields: [image, date, title, subtitle]
     sort: "date desc"

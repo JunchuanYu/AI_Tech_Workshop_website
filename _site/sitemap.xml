@@ -2,11 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://agrsai.netlify.app/about.html</loc>
-    <lastmod>2025-05-14T19:54:08.386Z</lastmod>
+    <lastmod>2025-06-05T07:43:57.280Z</lastmod>
   </url>
   <url>
     <loc>https://agrsai.netlify.app/index.html</loc>
-    <lastmod>2025-05-14T19:54:09.604Z</lastmod>
+    <lastmod>2025-06-05T07:43:35.904Z</lastmod>
   </url>
   <url>
     <loc>https://agrsai.netlify.app/News/AGRS_AI_001/index.html</loc>
@@ -22,7 +22,7 @@
   </url>
   <url>
     <loc>https://agrsai.netlify.app/News/index.html</loc>
-    <lastmod>2025-05-14T19:54:12.770Z</lastmod>
+    <lastmod>2025-06-05T07:43:59.446Z</lastmod>
   </url>
   <url>
     <loc>https://agrsai.netlify.app/Reports/aireport001/main.html</loc>
@@ -38,7 +38,7 @@
   </url>
   <url>
     <loc>https://agrsai.netlify.app/Reports/index.html</loc>
-    <lastmod>2025-05-14T19:54:15.768Z</lastmod>
+    <lastmod>2025-06-05T07:43:15.476Z</lastmod>
   </url>
   <url>
     <loc>https://agrsai.netlify.app/Tutorials/Adobe_Illustrator_for_Scientific_Graphic_Design/index.html</loc>
@@ -47,5 +47,29 @@
   <url>
     <loc>https://agrsai.netlify.app/Tutorials/index.html</loc>
     <lastmod>2025-05-14T19:54:17.274Z</lastmod>
+  </url>
+  <url>
+    <loc>https://agrsai.netlify.app/Reports/geopython001/main.html</loc>
+    <lastmod>2025-06-05T07:43:18.864Z</lastmod>
+  </url>
+  <url>
+    <loc>https://agrsai.netlify.app/Reports/geopython001/test.html</loc>
+    <lastmod>2025-06-05T07:42:47.063Z</lastmod>
+  </url>
+  <url>
+    <loc>aitech-ws.netlify.app/News/index.html</loc>
+    <lastmod>2025-06-05T07:45:24.685Z</lastmod>
+  </url>
+  <url>
+    <loc>aitech-ws.netlify.app/index.html</loc>
+    <lastmod>2025-06-05T07:45:45.003Z</lastmod>
+  </url>
+  <url>
+    <loc>aitech-ws.netlify.app/Reports/index.html</loc>
+    <lastmod>2025-06-05T07:45:53.683Z</lastmod>
+  </url>
+  <url>
+    <loc>aitech-ws.netlify.app/about.html</loc>
+    <lastmod>2025-06-05T07:45:57.279Z</lastmod>
   </url>
 </urlset>
